@@ -385,6 +385,11 @@ body {
         align-items: center;
         padding: 0;
     }
+    .description .txt-des p span
+    {
+        display: block;
+        height: 40px;
+    }
 
     /* .description .txt-des .name-des {
         font-size: 25px;
