@@ -503,11 +503,97 @@ body {
 
 .skill-section
 {
-    padding-top: 30px;
-    
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-section .des
+{
+    width: 50%;
+}
+.skill-section .des h2
+{
+
+}
+.skill-section .des p
+{
+    color: #444;
+    line-height: 1.4;
+}
+
+.skill-section .skills-bars
+{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-section .skills-bars .bar
+{
+    width: 80%;
+    height: 20px;
+    background-color: #eee;
+    /* overflow: hidden; */
+    margin-bottom: 40px;
+    padding: 0;
+    position: relative;
+}
+.skill-section .skills-bars .bar> span::before
+{
+    content: "";
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 50%;
+    background-color: var(--main-color);
+    display: block;
+}
+
+.skill-section .skills-bars .bar > span
+{
+
+    display: block;
+    height: 100%;
+    width: 50%;
+    background-color: var(--main-color);
 }
 
 
+.skill-section .skills-bars .bar .info
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 100%;
+    left: 0;
+}
+.skill-section .skills-bars .bar .info span
+{
+    display: block;
+}
+
+
+@media(min-width: 900px)
+{
+    .skill-section {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+    .skill-section .des {
+        width: 70%;
+        text-align: center;
+        padding-bottom: 50px
+    }
+    .skill-section .skills-bars
+    {
+        width: 70%;
+    }
+}
 /* end skills */
 
 
