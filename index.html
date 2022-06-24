@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/fontawesome-v6.1.1/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- start navbar -->
+    <div id="navbar" class="navbar">
+        <div class="container">
+            <div class="logo"><a href="#">Portfo<span id="ext-logo" class = "active">lio.</span></a></div>
+            <div class="navit">
+                <ul id="navItems">
+                    <li><a class="item" href="#home">Home</a></li>
+                    <li><a class="item" href="#about">About</a></li>
+                    <li><a class="item" href="#sevices">Sevices</a></li>
+                    <li><a class="item" href="#skills">Skills</a></li>
+                    <li><a class="item" href="#teams">Teams</a></li>
+                    <li><a class="item" href="#contact">Contact</a></li>
+                </ul>
+                
+            </div>
+            <div class="burger" >
+                <i id="burger-btn-open" class="fa-solid fa-bars"></i>
+
+            </div>
+        </div>
+    </div>
+    <div id="menu-overlay" class="menu-overlay">
+        <!-- <i class="fa-solid fa-xmark close-menu"></i> -->
+        <ul>
+            <i id="burger-btn-close" class="fa-solid fa-xmark"></i>
+
+            <li class="item"><a class="active" href="#home">Home</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#sevices">Sevices</a></li>
+            <li class="item"><a href="#skills">Skills</a></li>
+            <li class="item"><a href="#teams">Teams</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <!-- end navbar -->
+
+    <!-- start slider -->
+    <div class="slider" id="home">
+        <div class="container">
+            <div class="bio">
+                <p class="text-1">Hello, my name is</p>
+                <p class="text-2">Yousef Shaban</p>
+                <div class="text-3">
+                    <p>And i'm a 
+
+                        <span id="typeing-fx"></span>
+                    </p>
+                    <!-- <p id="typeing-fx"></p> -->
+                </div>
+                <div class="hire-me">
+                    <a href="#contact">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end slider -->
+
+    <!-- start about me -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="txt-1">
+                <h2>About me</h2>
+                <p>who am i</p>
+            </div>
+            <div class="description">
+                <div class="img">
+                    <img src="https://via.placeholder.com/300" alt="">
+                </div>
+
+                <div class="txt-des">
+
+                    <p class="name-des">I'm Yousef Shaban and I'm a 
+                        <span id="typing-fx2" class="typing"></span>
+                    </p>
+
+                    <p class="bio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque repellat rem iusto laborum eius harum veniam. Doloremque deleniti, vel commodi non totam voluptate perferendis nostrum officiis alias reiciendis sunt id.</p>
+
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end about me -->
+
+
+    <!-- start services -->
+    <div class="services">
+        <div class="container">
+
+            <div class="txt-1">
+                <h2>Services</h2>
+                <p>What i Provide</p>
+            </div>
+
+            <div class="boxes">
+
+                <div class="box">
+                    <i class="fas fa-paint-brush"></i>
+                    <p class="skill">Web Design</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-chart-line"></i>
+                    <p class="skill">Freelancer</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <p class="skill">Front end Web Developer</p>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet,</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end services -->
+
+    <!-- start my skills -->
+
+    <div class="skills">
+        <div class="container">
+            <div class="txt-1">
+                <h2>Skills</h2>
+                <p>What i Know</p>
+            </div>
+
+            <div class="skill-section">
+                <div class="des">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde ullam, maxime deserunt eum libero voluptas id nulla recusandae corrupti quod vel. Est maxime veniam, tenetur nesciunt distinctio eligendi! Voluptates!</p>
+                </div>
+                <div class="skills">
+                    <div class="bar"><span class="html"></span></div>
+                    <div class="bar"><span class="css"></span></div>
+                    <div class="bar"><span class="js"></span></div>
+                    <div class="bar"><span class="nodejs"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end my skills -->
+    <script src="js/main.js"></script>
+</body>
+</html>
